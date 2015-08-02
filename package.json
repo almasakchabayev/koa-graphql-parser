@@ -1,0 +1,34 @@
+{
+  "name": "koa-graphql-parser",
+  "version": "0.1.0",
+  "description": "koa graphql body parser middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almasakchabayev/koa-graphql-parser.git"
+  },
+  "keywords": [
+    "graphql",
+    "parser",
+    "koa"
+  ],
+  "author": "Almas Akchabayev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almasakchabayev/koa-graphql-parser/issues"
+  },
+  "homepage": "https://github.com/almasakchabayev/koa-graphql-parser#readme",
+  "devDependencies": {
+    "koa": "^0.21.0",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "supertest": "^1.0.1"
+  },
+  "dependencies": {
+    "babel": "^5.8.20",
+    "raw-body": "^2.1.2"
+  }
+}
