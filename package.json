@@ -1,10 +1,11 @@
 {
   "name": "koa-graphql-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "koa graphql body parser middleware",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --harmony --compilers js:babel/register"
+    "test": "./node_modules/.bin/mocha --harmony --compilers js:babel/register",
+    "prepublish": "./node_modules/.bin/babel src --out-dir build"
   },
   "repository": {
     "type": "git",

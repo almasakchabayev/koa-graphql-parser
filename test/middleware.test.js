@@ -1,7 +1,7 @@
 import request from 'supertest';
 import koa from 'koa';
 import should from 'should'
-import graphqlBodyParser from '../';
+import graphqlBodyParser from '../src';
 
 describe('test graphql body parser middleware', function () {
   let app;
